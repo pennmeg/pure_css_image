@@ -10,10 +10,12 @@ body {
   height: 420px;
   border: white solid 5px;
 }
+/* ---- Koala: May 5, 2018 --- */
 #head {
   position: absolute;
   top: 20%;
   left: 25%;
+  /* Dead center: left = (100 - width) / 2 && top = (100 - height) / 2 */
   width: 50%;
   height: 60%;
   background-color: #A6BECF;
@@ -25,5 +27,34 @@ body {
   position: absolute;
   background: #A6BECF;
   border-radius: 50%;
-  z-index: 2;
+  z-index: 2; /* depth of div */
+}
+#leftEar {
+  position: absolute;
+  width: 60%;
+  height: 65%;
+  left: -20%;
+  top: 5%;
+  background: #A6BECF;
+  border-radius: 50%;
+  z-index: 1;
+}
+#rightEar {
+  position: absolute;
+  width: 60%;
+  height: 65%;
+  right: -20%;
+  top: 5%;
+  background: #A6BECF;
+  border-radius: 50%;
+  z-index: 1;
+}
+.innerEar {
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: #819CAF;
 }
