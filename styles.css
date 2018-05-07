@@ -1,10 +1,10 @@
 body {
   width: 100%;
-  background-color: #A57E94;
+  background-color: #b595a7;
 }
 .box {
   position: relative;
-  margin: auto;
+  margin: 5px auto;
   display: block;
   width: 600px;
   height: 420px;
@@ -124,4 +124,17 @@ p {
   background:  #A6BECF;
   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+/* ---- Computer: May 5, 2018 --- */
+#desk {
+  background-color: #d2a177;
+  width: 100%;
+  height: 100%;
+}
+#laptop {
+  position: absolute;
+  top: 25%;
+  height: 80%;
+  width: 50%;
+  background-color: #D3D3D3;
 }
