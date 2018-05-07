@@ -10,6 +10,13 @@ body {
   height: 420px;
   border: white solid 5px;
 }
+p {
+  margin: 0;
+  padding: 2px;
+  font-family: Arial;
+  font-size: 10px;
+  text-transform: uppercase;
+}
 /* ---- Koala: May 5, 2018 --- */
 #head {
   position: absolute;
