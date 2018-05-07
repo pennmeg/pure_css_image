@@ -25,7 +25,7 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: #A6BECF;
+  background-color: #A6BECF;
   border-radius: 50%;
   z-index: 2; /* depth of div */
 }
@@ -35,9 +35,9 @@ body {
   height: 65%;
   left: -20%;
   top: 5%;
-  background: #A6BECF;
+  background-color: #A6BECF;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 1; /* pushes ears behind the head */
 }
 #rightEar {
   position: absolute;
@@ -45,7 +45,7 @@ body {
   height: 65%;
   right: -20%;
   top: 5%;
-  background: #A6BECF;
+  background-color: #A6BECF;
   border-radius: 50%;
   z-index: 1;
 }
@@ -56,5 +56,65 @@ body {
   height: 80%;
   top: 10%;
   left: 10%;
-  background: #819CAF;
+  background-color: #819CAF;
+}
+#leftEye {
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  left: 21%;
+  border-radius: 50%;
+  z-index: 3;
+}
+#rightEye {
+  position: absolute;
+  background-color: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  right: 21%;
+  border-radius: 50%;
+  z-index: 3;
+}
+.pupil{
+  position: absolute;
+  width: 28%;
+  height: 30%;
+  top: 35%;
+  left: 36%;
+  border-radius: 50%;
+  background-color: #27354A;
+}
+#nose{
+  position: absolute;
+  background-color: #191919;
+  width: 25%;
+  height: 35%;
+  left: 37%;
+  top: 45%;
+  border-radius: 50px;
+  z-index: 4;
+}
+#leftHair {
+  position: absolute;
+  top: -8%;
+  left: 30%;
+  width: 20%;
+  height: 20%;
+  background:  #A6BECF;
+  /* tool to create clip-paths: http://bennettfeely.com/clippy/ */
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%); /* not supported by Firefox */
+}
+#rightHair {
+  position: absolute;
+  top: -4%;
+  left: 48%;
+  width: 20%;
+  height: 20%;
+  background:  #A6BECF;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
