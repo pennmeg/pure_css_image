@@ -3,6 +3,10 @@ body {
   background-color: #A57E94;
 }
 .box {
-
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 600px;
+  height: 420px;
   border: white solid 5px;
 }
