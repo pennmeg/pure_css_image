@@ -8,3 +8,4 @@ I decided to begin by following along with https://medium.com/coding-artist/a-be
 
 Other Pure CSS Images
 * https://github.com/pennmeg/pure_css_laptop
+* https://github.com/pennmeg/pure_css_corgi
