@@ -6,7 +6,7 @@ After seeing this image (https://github.com/cyanharlow/purecss-francine) go vira
 
 ![Pure CSS Koala](pure_css_koala.jpg)
 
-*May 7, 2018* 
+*May 5, 2018* 
 
 ## Other Pure CSS Images
 
